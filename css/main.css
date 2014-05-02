@@ -33,8 +33,10 @@ h2 {
   top: 50%;
   display: block;
 }
-button {
+a {
   width: 120px;
+  display: inline-block;
+  text-decoration: none;
   background-color: #f2c21a;
   border: 0;
   border-radius: 5px;
@@ -48,7 +50,7 @@ button {
   transition: opacity 0.3s;
   font-weight: 100;
 }
-button:hover {
+a:hover {
   cursor: pointer;
   opacity: 0.9;
   -webkit-transition: opacity 0.3s; /* For Safari 3.1 to 6.0 */
