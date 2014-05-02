@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: url('images/title/1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  top: 0;
+  font-family: sans-serif;
+}
+h1 {
+  font-family: 'Arvo', Sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 60px;
+}
+h2 {
+  font-size: 20px;
+}
+.container {
+  width: 500px;
+  height: 100px;
+  margin: -50px auto 0;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  display: block;
+}
+button {
+  width: 120px;
+  background-color: #f2c21a;
+  border: 0;
+  border-radius: 5px;
+  font-family: sans-serif;
+  padding: 5px;
+  color: #fff;
+  margin: 3px;
+  font-size: 16px;
+  outline: none;
+  -webkit-transition: opacity 0.3s; /* For Safari 3.1 to 6.0 */
+  transition: opacity 0.3s;
+  font-weight: 100;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  -webkit-transition: opacity 0.3s; /* For Safari 3.1 to 6.0 */
+  transition: opacity 0.3s;
+}
