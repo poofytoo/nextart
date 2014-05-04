@@ -12,6 +12,10 @@ $(document).ready(function(){
   // ensures first visit always is the elevator photo
   if (localStorage.getItem("visited")) {
     var s = scheme[Math.floor(Math.random()*(Object.keys(scheme).length))];
+    if (Math.floor(Math.random()*100) == 0) {
+      $('body').addClass('flip');
+      $('.container').css('marginTop','50px');
+    }
   } else {
     localStorage.setItem("visited", true);
     var s = scheme[0];
@@ -22,8 +26,4 @@ $(document).ready(function(){
   $('a').css('color',s[2]);
   $('h1').css('color',s[3]);
   
-  if (Math.floor(Math.random()*100) == 0) {
-    $('body').addClass('flip');
-    $('.container').css('marginTop','50px');
-  }
 });
